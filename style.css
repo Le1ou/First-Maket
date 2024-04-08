@@ -51,12 +51,12 @@ ul
     border-radius: 1px;
 }
 
-.divider--hidden
+.header-left__divider--hidden
 {
     display: none;
 }
 
-.divider--unhidden
+.header-right__divider--unhidden
 {
     margin-right: 20px;
     align-self: center;
@@ -91,7 +91,12 @@ ul
 
 
 @media (min-width: 768px){
-.divider--hidden
+.header-left
+{
+    gap: 0;
+}
+
+.header-left__divider--hidden
 {
     display: block;
     align-self: center;
@@ -99,7 +104,7 @@ ul
     margin-right: 20.73px;
 }
 
-.divider--unhidden
+.header-right__divider--unhidden
 {
     align-self: center;
     margin: 0 4px;
@@ -133,7 +138,7 @@ ul
 }
 }
 
-.hightclass
+.main-header__hightclass
 {
     width: 4px;
     height: 40px;
@@ -163,12 +168,6 @@ ul
     max-height: 83px;
 }
 
-.section-nav li
-{
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .section-nav a
 {
     display:inline-block;
@@ -180,7 +179,7 @@ ul
     font-size: 16px;
 }
 
-.section-nav__a--hover
+.section-nav__li--hover
 {
     border: 2px solid #b8ffec;
     border-radius: 5px;
@@ -216,7 +215,7 @@ ul
     padding-left: 24px;
 }
 
-.section-nav__li.section-nav__li--hidden
+.section-nav__li--hidden
 {
     display: none;
 }
@@ -265,7 +264,7 @@ ul
     align-items: center;
 }
 
-.hightclass
+.main-header__hightclass
 {
     position: absolute;
     top: 61px;
@@ -290,13 +289,13 @@ ul
     overflow-x: hidden;
 }
 
-.main-info_text-container{
+.main-info__text-container{
     margin: 0 0 16px 0;
     padding: 0 16px;
 }
 
 
-.main-info_text p:not(:first-child) {
+.main-info__text p:not(:first-child) {
     display: none;
  }
 
@@ -314,7 +313,7 @@ ul
 }
 
 @media (min-width: 768px){
-.main-info_text
+.main-info__text
 {
     padding-top: 0;
 }
@@ -326,14 +325,14 @@ ul
     padding: 0 24px;
 }
 
-.main-info_text-container
+.main-info__text-container
 {
     min-width: 312px;
     max-width: 50%;
     padding: 0;
 }
 
-.main-info_text p:nth-child(2)
+.main-info__text p:nth-child(2)
 {
     display: block;
 }
@@ -349,12 +348,12 @@ ul
 {
     padding: 0 34px;
 }
-.main-info_text p:nth-child(2)
+.main-info__text p:nth-child(2)
 {
     margin-bottom: 0;
 }
 
-.main-info_text p:nth-child(3)
+.main-info__text p:nth-child(3)
 {
     margin-top: 0;
     display: block;
