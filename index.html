@@ -9,48 +9,50 @@
   </head>
   <body>
     <header class="header">
-      <ul class="header-left">
-        <button class="button header-button">
+      <div class="header__left">
+        <button class="header__left-button">
           <img src="img/burger.svg" alt="Меню">
         </button>
-          <div class="divider header-left__divider--hidden"></div>
+          <div class="divider header__left-divider"></div>
+        <a href="">
+          <img src="img/Group.svg" alt="Логотип">
+        </a>
+      </div>
+      <nav class="header__right-list">
+      <ul class="header__right-list--first">
         <li>
-          <img src="img/Group.svg" alt="Логотип" class="header-left__group-img">
+          <img src="img/call.svg" alt="Звонки">
+        </li>
+        <li>
+          <img src="img/chat.svg" alt="Сообщения">
+        </li>
+        <li>
+          <img src="img/profile.svg" alt="Профиль">
         </li>
       </ul>
-      <ul class="header-right">
-        <li>
-          <img src="img/call.svg" alt="Звонки" class="header-right__img--hidden">
-        </li>
-        <li>
-          <img src="img/chat.svg" alt="Сообщения" class="header-right__img--hidden">
-        </li>
-        <li>
-          <img src="img/profile.svg" alt="Профиль" class="header-right__img--hidden">
-        </li>
-          <div class="divider header-right__divider--unhidden"></div>
-        <li>
+          <div class="divider header__right-divider"></div>
+        <a href="">
           <img src="img/repair.svg" alt="Оставить заявку">
-        </li>
-        <li>
-          <img src="img/checkstatus.svg" alt="Статус ремонта" class="header-right__img--last">
-        </li>
-      </ul>
+        </a>
+        <a href="">
+          <img src="img/checkstatus.svg" alt="Статус ремонта" class="header__right-img--last">
+        </a>
+    </nav>
     </header>
   <section class="main-header">
     <div class="main-header__hightclass"></div>
-    <div class="section-header">
-    <h1 class="section-title">Услуги и сервисы</h1>
-        <div  class="section-header__block">
+    <div class="main-header__section">
+    <h1 class="main-header__section-title">Услуги и сервисы</h1>
+        <div  class="main-header__section-block">
           <a href="">Оставить заявку</a>
           <img src="img/repair.svg" alt="Оставить заявку">
           <a href="">Статус ремонта</a>
           <img src="img/checkstatus.svg" alt="Статус ремонта">
       </div>
     </div>
-      <nav>
-        <ul class="section-nav">
-          <li class="section-nav__li--hover">
+      <nav class="main-header__nav">
+        <ul class="main-header__section-list">
+          <li>
             <a href="">Ремонтируемые бренды</a>
           </li>
           <li >
