@@ -128,15 +128,16 @@ ul
 }
 
 }
-
-.main-header__hightclass
+.main-header__section-title::before
 {
+    content: "";
     width: 4px;
     height: 40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #41f6d7;
     position: absolute;
+    left: 0;
 }
 
 .main-header__section-block
@@ -254,11 +255,7 @@ ul
 {
     padding-left: 32px;
 }
-.main-header__hightclass
-{
-    position: absolute;
-    top: 61px;
-}
+
 
 .main-header__section-block img:first-of-type {
     margin-right: 32px;
