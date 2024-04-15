@@ -62,7 +62,7 @@ ul
     align-self: center;
 }
 
-.header__right-list--first
+.header__first-list
 {
     display: none;
 }
@@ -109,7 +109,7 @@ ul
     margin: 0 20px;
 }
     
-.header__right-list--first
+.header__first-list
 {
     display: flex;
     gap: 16px;
